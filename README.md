@@ -1,1 +1,1 @@
-# Basic React/Tailwind Front-End with a Python Flask Back-End Framework
+# Basic React Front-End with Flask Back-End Framework
