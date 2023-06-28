@@ -1,1 +1,1 @@
-<h1>Environment and Framework for React + Tailwind Front-End with a Flask Back-End</h1>
+<h1>Environment and Framework for React.js + TailwindCSS Front-End with a Python Flask Back-End</h1>
