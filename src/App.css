@@ -1,0 +1,117 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  background: #e4e4e4;
+}
+
+a {
+  text-decoration: none;
+  color: var(--tertiary);
+  user-select: none;
+}
+
+a:hover {
+  color: #ce4760;
+}
+
+:root {
+  --primary: #193b1e;
+  --secondary: #e4f0df;
+  --tertiary: #572cb5;
+  --main-font: cursive;
+  --alt-font: monospace;
+  --std-padding: 1%;
+  --std-margin: 5%;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  user-select: none;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  color: var(--primary);
+  font-family: var(--main-font);
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 1rem 0 0;
+}
+
+.flask-message1 {
+  color: var(--tertiary);
+  font-family: var(--alt-font);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.flask-message2 {
+  font-size: 2rem;
+  width: fit-content;
+  text-align: center;
+  margin: 3rem auto 0;
+
+}
+
+.flask-message2:hover {
+  transform: scale(1.1)
+}
+
+.box {
+  border: 1px dashed var(--primary);
+  margin: var(--std-margin);
+  padding: var(--std-padding);
+  background: var(--secondary);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  user-select: none;
+}
+
+.text {
+  text-align: center;
+  color: var(--primary);
+  font-family: var(--alt-font);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.happy {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  font-family: var(--main-font);
+  color: var(--primary);
+  letter-spacing: .3rem;
+  user-select: none;
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  user-select: none;
+  color: var(--primary);
+  font-family: var(--alt-font);
+}
+
+.website {
+  font-size: 1.5rem;
+  display: flex;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.website:hover {
+  transform: scale(1.1)
+}
