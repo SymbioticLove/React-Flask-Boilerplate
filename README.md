@@ -1,1 +1,1 @@
-# Basic React Front-End with Flask Back-End Framework
+# Basic React Front-End with Flask Back-End Boilerplate
