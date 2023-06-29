@@ -1,6 +1,6 @@
 @echo off
 
-rem Change directory to "c:\react-flask-framework-main"
+rem Change directory to "c:\React-Flask-Boilerplate-main"
 cd /d "c:\build\react-flask-framework"
 
 rem Activate the virtual environment
