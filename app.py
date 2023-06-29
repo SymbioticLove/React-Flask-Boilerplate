@@ -12,7 +12,7 @@ def get_data():
                 'text': 'View our other projects on GitHub!'
             },
             'box1': "This is a boilerplate template for creating a web app using a React front-end and Flask back-end. Everything is already linked and proxied if you're running ports 3000/5000. All you need to do is clear out the return and data statements and code!",
-            'box2': "The batch file included in the 'shortcuts' directory, Initialize, will activate the virtual enviroment, install the necessary dependencies, launch the Flask server, launch the React app, and then disable the virtual environment to prevent accidental modifications",
+            'box2': "Inside the 'shortcuts' directory, you will find setup shell files for Mac and Linux, as well as run shortcuts. Setup will create a virtual environment, activate it, and install the necessary dependencies. Run will initialize both servers.",
             }
     return jsonify(data)
     
