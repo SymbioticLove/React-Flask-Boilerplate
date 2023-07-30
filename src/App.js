@@ -21,13 +21,13 @@ function App() {
       {data && <p className="flask-message2"><a href={data.link.href} alt="GitHub Profile" target="_blank" rel= "noopener noreferrer">{data.link.text}</a></p>}
       <div className="container2">
         <div className="box">
-          <p className="text">This is a boilerplate template for creating a web app using a React front-end and Flask back-end. Everything is already linked and proxied if you're running ports 3000/5000. All you need to do is clear out this return statement and code!</p>
+          {data && <p className="text">{data.box1}</p>}
         </div>
         <div className="box">
-          <p className="text">The batch file included in the "shortcuts" directory, Initialize, will create a virtual environment, install the necessary dependencies, launch the Flask server, launch the React app, and then disable the virtual environment to prevent accidental modifications.</p>
+          {data && <p className="text">{data.box2}</p>}
         </div>
         <div className="box">
-          <p className="text">This assumes that the repo was installed at your C: drive. If it was installed elsewhere, you will need to update the routes in Initialize.bat. If you require any assistance with this template, reach out to <a href="mailto:support@symbiotic.love?subject=react/flask-template">support@symbiotic.love!</a></p>
+          <p className="text">This assumes that the repo was installed at your C: drive. If it was installed elsewhere, you will need to update the routes in Initialize.bat. If you require any assistance with this template, reach out to <a href='mailto:support@symbiotic.love?subject=react/flask-template'>support@symbiotic.love!</a></p>
         </div>
       </div>
       <h2 className="happy">Happy coding!</h2>
